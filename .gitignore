@@ -23,3 +23,10 @@ pog/contracts/.openzeppelin/
 .DS_Store
 Thumbs.db
 *.log
+pog/**/node_modules/
+pog/**/.next/
+pog/**/dist/
+pog/**/out/
+pog/**/coverage/
+pog/**/.env
+pog/**/.env.local
