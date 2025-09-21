@@ -1,0 +1,25 @@
+# Node / Next
+pog/**/node_modules/
+pog/**/.next/
+pog/**/dist/
+pog/**/out/
+pog/**/coverage/
+
+# Locks（好みに応じて）
+pog/**/package-lock.json
+pog/**/yarn.lock
+pog/**/pnpm-lock.yaml
+
+# Env（絶対コミットしない）
+pog/**/.env
+pog/**/.env.local
+
+# Hardhat
+pog/contracts/cache/
+pog/contracts/artifacts/
+pog/contracts/.openzeppelin/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
